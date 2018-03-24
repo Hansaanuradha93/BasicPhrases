@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hansaanuradhawickramanayake.basicphrases.MainActivity">
+
+
+    <GridLayout
+        android:id="@+id/buttonGridLayout"
+        android:layout_width="395dp"
+        android:layout_height="678dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="2"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <Button
+            android:id="@+id/doYouSpeakEnglishButton"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:background="@color/colorPrimary"
+            android:onClick="translateToFrench"
+            android:tag="doyouspeakenglish"
+            android:text="@string/doYouSpeakEnglish"
+            android:textColor="@color/fontColor"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/goodeveningButton"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="@string/good_evening"
+            android:onClick="translateToFrench"
+            android:tag="goodevening"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/fontColor"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/helloButton"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="@string/hello"
+            android:onClick="translateToFrench"
+            android:tag="hello"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/fontColor"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/howareyouButton"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="@string/how_are_you"
+            android:onClick="translateToFrench"
+            android:tag="howareyou"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/fontColor"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/iliveinButton"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="@string/ilivein"
+            android:onClick="translateToFrench"
+            android:tag="ilivein"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/fontColor"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/mynameisButton"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="@string/my_name_is"
+            android:onClick="translateToFrench"
+            android:tag="mynameis"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/fontColor"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/pleaseButton"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="@string/please"
+            android:onClick="translateToFrench"
+            android:tag="please"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/fontColor"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/welcomeButton"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_rowWeight="1"
+            android:text="@string/welcome"
+            android:onClick="translateToFrench"
+            android:tag="welcome"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/fontColor"
+            android:layout_margin="10dp" />
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
